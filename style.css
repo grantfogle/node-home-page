@@ -13,8 +13,8 @@ header {
     align-items: center;
     justify-content: center;
 }
-logo {
-}
+/* logo {
+} */
 
 header img {
     max-width: 100px;
@@ -44,9 +44,82 @@ nav {
 }
 
 main {
-    /* height: 800px; */
+    max-width: 980px;
+    width: 100%;
+    margin: auto;
 }
 
+main h3 {
+    max-width: 900px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+main h3 a {
+    color: green;
+}
+
+main h3 a:hover {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+
+main img {
+    margin: auto;
+    display: block;
+}
+
+.product-box-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.green-box {
+    width: 242.75px;
+    background-color: green;
+    color: white;
+    height: 81px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.feature-nav li {
+    list-style-type: none;
+    margin: 2px;
+    padding-right: 3px;
+    border-right: solid white 1px;
+}
+
+.feature-nav li a {
+    color: green;
+    font-size: 12px;
+}
+
+main h4 {
+    max-width: 740px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
 footer {
     background-color: #333;
     padding: 50px;
