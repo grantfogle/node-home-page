@@ -28,7 +28,7 @@ nav {
 .navigation-bar {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
 }
 
@@ -70,6 +70,10 @@ main h3 a:hover {
 main img {
     margin: auto;
     display: block;
+}
+
+.download {
+    margin-bottom: 30px;
 }
 
 .product-box-row {
@@ -120,6 +124,24 @@ main h4 {
     text-align: center;
     margin-top: 20px;
 }
+
+.bottom-content {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bottom-content a {
+    color: green;
+}
+
+.bottom-content a:hover {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+
+
 footer {
     background-color: #333;
     padding: 50px;
